@@ -21,7 +21,7 @@ body {
   margin: 50px;
 }
 .navigation ul {
-  overflow: auto;
+  overflow: visible;
   list-style-type: none;
   text-align: center;
   position: relative;
@@ -53,7 +53,7 @@ body {
 }
 .navigation li.active a {
   font-weight: bold;
-  color: #ccccff;
+  color: #ff9999;
 }
 /*////////////////////////////////////////////////////////////////*/
 .banner {
@@ -113,6 +113,7 @@ body {
   #main {
     transition: margin-left 0.5s;
     padding: 16px;
+    color: white;
   }
 }
 @media only screen and (max-width: 770px) and screen and (max-height: 450px) {
