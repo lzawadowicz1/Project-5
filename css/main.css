@@ -4,14 +4,8 @@
     A set of useful LESS mixins
     More info at: http://lesselements.com
   ---------------------------------------------------*/
-p {
-  -moz-opacity: 0.2;
-  -khtml-opacity: 0.2;
-  -webkit-opacity: 0.2;
-  opacity: 0.2;
-  -ms-filter: progid:DXImageTransform.Microsoft.Alpha(opacity=20);
-  filter: alpha(opacity=20);
-  color: purple;
+body {
+  background-color: #101010;
 }
 #main,
 .sidenav {
@@ -20,7 +14,6 @@ p {
 #nav_container {
   width: 100%;
   text-align: center;
-  background-color: black;
 }
 .navigation {
   margin: 0;
@@ -60,14 +53,15 @@ p {
 }
 .navigation li.active a {
   font-weight: bold;
-  color: #333;
+  color: #ccccff;
 }
 /*////////////////////////////////////////////////////////////////*/
 .banner {
-  width: 90%;
+  width: 100%;
+  margin-top: -6%;
 }
 .banner img {
-  width: 60%;
+  width: 100%;
 }
 /*////////////////////////////////////////////////////////////////*/
 .footer {

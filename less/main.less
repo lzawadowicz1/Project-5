@@ -3,9 +3,8 @@
 @import "vendor/elements.less";
 @import "color.less";
 
-p {
-  .opacity(0.2);
-  color: @best-color;
+body {
+  background-color: @background-color;
 }
 
 #main,
@@ -16,7 +15,6 @@ p {
 #nav_container {
   width: 100%;
   text-align: center;
-  background-color: black;
 }
 
 .navigation {
@@ -64,7 +62,7 @@ p {
 
     li.active a {
       font-weight: bold;
-      color: #333;
+      color: @active-color;
     }
 }
 
@@ -72,10 +70,11 @@ p {
 
 /*////////////////////////////////////////////////////////////////*/
 .banner {
-  width: 90%;
+  width: 100%;
+  margin-top: -6%;
 
   img{
-    width: 60%
+    width: 100%
   }
 }
 
