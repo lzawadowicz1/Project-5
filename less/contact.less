@@ -199,18 +199,21 @@ and (orientation : portrait){
 }
 
 @media only screen
-and (min-device-width: 320px)
-and (max-device-width: 568px)
-and (orientation : landscape) {
-
+ and (min-device-width: 320px)
+ and (max-device-width: 568px)
+ and (orientation: landscape) {
   #contact {
-    height: 900px;
+    height: 700px;
   }
-
-.container {
-     margin-left:45px;
+.section-header {
+  font-size: 70px;
+  padding-top: 0px;
+  margin-top: -30px;
+  margin-bottom: 0px;
 }
-
+  .container {
+    margin-left: 130px;
+  }
   .direct-contact-container,
   .form-wrapper {
     float: none;
@@ -221,36 +224,55 @@ and (orientation : landscape) {
   textarea {
     max-width: 300px;
   }
-
   .direct-contact-container {
-    margin-top: 60px;
-    max-width: 300px;
+    margin-top: 300px;
+    max-width: 400px;
+    margin-left: 115px;
+
   }
   .contact-text {
-    font-size: ;
+    font-size: 22px;
   }
-  .social-media-icons-list li {
-    margin: 5px 0px;
+
+
+  hr{
+    margin-right: 15px;
   }
 }
 @media only screen
 and (min-device-width: 320px)
 and (max-device-width: 568px)
 and (orientation : portrait) {
-.direct-contact-container, .continer{
-  max-width: 70%;
-}
-.container {
-  margin-left: 7px;
-  margin-top: -13px;
-}
+  .section-header {
+    font-size: 60px;
+    padding-top: 10px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
 
-.direct-contact-container {
-  margin-left:70px;
-}
+  .direct-contact-container,
+  .continer {
+    max-width: 70%;
   }
-@media screen and (max-width: 410px) {
-  .send-button {
-    width: 99%;
+  .container {
+    margin-left: 7px;
+    margin-top: -13px;
   }
+    .name,
+  .email,
+  textarea {
+    max-width: 300px;
+  }
+  .direct-contact-container {
+    margin-top: 30px;
+    max-width: 280px;
+  }
+  .contact-text {
+     font-size: 15px;
+     font-weight: bold;
+  }
+ .list-item {
+   font-size: 12px;
+ }
+
 }
