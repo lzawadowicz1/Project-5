@@ -125,39 +125,27 @@ hr {
 CONTACT SECTION MEDIA QUERIES
 ****************************/
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-  .section-header {
-    font-size: 65px;
-  }
   #contact {
-    Height: 915px;
+    margin-top: -70px;
   }
-  .direct-contact-container,
-  .form-horizontal {
-    float: none;
-    margin: 0 auto;
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  #contact {
+    height: 900px;
   }
-  .name,
-  .email,
-  textarea,
-  button {
-    max-width: 370px;
-  }
-  .form-horizontal {
-    margin-left: 225px;
+  .container {
+    margin-left: 230px;
   }
   .direct-contact-container {
-    margin-top: 40px;
-    max-width: 300px;
-  }
-  .contact-list {
-    margin-left: 90px;
+    margin-top: 310px;
+    float: none;
+    margin-left: 220px;
   }
   .social-media-icons-list {
-    margin-left: 40px;
+    margin-left: -115px;
   }
   hr {
-    margin-left: 105px;
-    margin-right: 10px;
+    margin-right: 30px;
   }
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
