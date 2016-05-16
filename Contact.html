@@ -14,6 +14,7 @@
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+        <link rel="stylesheet" href="css/contact.css">
     </head>
 
     <body>
@@ -26,7 +27,7 @@
       <div class="navigation">
         <ul>
           <li><a href="index.html">Home</a></li>
-          <li><a href="Resume.html">Resume</a></li>
+          <li><a href="Bio.html">Bio</a></li>
           <li><a href="Head_Shots.html">Head Shots</a></li>
           <li class="active"><a href="Contact.html">Contact</a></li>
         </ul>
@@ -34,10 +35,10 @@
      </div>
      <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#">Home</a>
-        <a href="#">Resume</a>
-        <a href="#">Head Shots</a>
-        <a href="#">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="Bio.html">Bio</a>
+        <a href="Head_Shots.html">Head Shots</a>
+        <a href="Contact.html">Contact</a>
       </div>
 
       <div id="main">
@@ -45,12 +46,87 @@
       </div>
 
 
+
+
+
+<!-- ///////////////////////////////////////////////////////////////////////////
+/////////////////////////////////// Contact /////////////////////////////////
+//////////////////////////////////////////////////////////////////////////// -->
+<link href='https://fonts.googleapis.com/css?family=Lato:400,100,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+<section id="contact">
+  <h1 class="section-header"> talk to me</h1>
+  <div class="contact-wrapper">
+
+    <!-- CONTACT PAGE LEFT -->
+    <form class="form-horizontal" role="form" method="post">
+      <!-- Took out the action="index.php" since it's not going live right now -->
+    <div class="container">
+      <div class="form-group">
+        <div class="col-sm-8">
+        <input type="name" class="form-control" id="inputNAME3" placeholder="NAME">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-8">
+        <input type="email" class="form-control" id="inputEMAIL3" placeholder="EMAIL">
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="8" placeholder="MESSAGE"></textarea>
+
+      <button class="btn btn-primary send-button" type="submit" value="SEND"><i class="fa fa-paper-plane"></i></button>
+
+    </div>
+
+    </form>
+
+      <!-- CONTACT PAGE RIGHT -->
+
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">Baltimore, MD</span></i></li>
+
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-443-617-1160" title="Hit me up">(443) 617-1160</a></span></i></li>
+
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:jessizawadowicz@ymail.com" title="Send me a message">jessizawadowicz@ymail.com</a></span></i></li>
+
+        </ul>
+
+        <hr>
+
+        <ul class="social-media-icons-list">
+
+          <li><a href="https://www.instagram.com/jessizawadowicz/" target="_blank" class="social-media-icon linkedin"><img src="images/1463436924_Aquicon-Instagram.png" height="60px" width="60px" alt="Instagram Icon"></a></li>
+
+          <li><a href="https://m.youtube.com/user/Eponine94" target="_blank" class="social-media-icon googleplus"><img src="images/1463436934_Aquicon-Youtube.png" height="60px" width="60px" alt="Youtube Icon"></a></li>
+
+          <li><a href="https://www.snapchat.com/add/jessirosiee" target="_blank" class="social-media-icon vimeo"><img src="images/snapchat.png" height="60px" width="60px" alt="Snapchat Icon"></a></li>
+
+          <li><a href="https://twitter.com/jessizawadowicz" target="_blank" class="social-media-icon imdb"><img src="images/1463436929_Aquicon-Twitter.png" height="60px" width="60px" alt="Twitter Icon"></a></li>
+        </ul>
+        <hr>
+      </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
 <!-- ///////////////////////////////////////////////////////////////////////////
 ////////////////////////////////// Footer //////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////// -->
 
   		<div class="footer">
-        <p> &#169; JessiZawadowicz 2016 </p>
+        <p> &copy; JessiZawadowicz 2016 </p>
   		</div>
 
 
