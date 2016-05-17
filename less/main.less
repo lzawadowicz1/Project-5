@@ -78,7 +78,9 @@ margin-top: -165px;
   }
 }
 
-.banner_phone {
+.banner_phone,
+.banner_tablet,
+.banner_tablet_p {
   display: none;
 }
 
@@ -204,3 +206,36 @@ span {
       display: none;
     }
   }
+
+  @media only screen
+ and (min-device-width: 768px)
+ and (max-device-width: 1024px)
+ and (orientation : landscape) {
+   .banner {
+     display: none;
+   }
+   .banner_tablet {
+     display: inherit;
+     margin-top:-160px;
+
+   }
+ }
+ @media only screen
+ and (min-device-width: 768px)
+ and (max-device-width: 1024px)
+ and (orientation : portrait) {
+   .banner {
+     display: none;
+   }
+   .banner_tablet_p {
+     display: block;
+   }
+   .banner_tablet_p img {
+     margin-top: 20px;
+     margin-left:25px;
+     width: 90%;
+   }
+   .footer {
+     margin-top:10px;
+   }
+ }
