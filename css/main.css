@@ -63,6 +63,9 @@ body {
 .banner img {
   width: 100%;
 }
+.banner_phone {
+  display: none;
+}
 /*////////////////////////////////////////////////////////////////*/
 .footer {
   width: 100%;
@@ -128,5 +131,31 @@ body {
   }
   .sidenav a {
     font-size: 18px;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: portrait) {
+  .banner {
+    display: none;
+  }
+  .banner_phone {
+    display: block;
+    position: fixed;
+    z-index: -1;
+  }
+  .banner_phone img {
+    margin-top: -30px;
+  }
+  .footer {
+    display: none;
+  }
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+  .banner {
+    width: 85%;
+    margin-top: -5px;
+    margin-left: 20px;
+  }
+  .footer {
+    display: none;
   }
 }
